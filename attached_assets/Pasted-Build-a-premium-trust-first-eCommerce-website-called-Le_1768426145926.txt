@@ -1,0 +1,85 @@
+Build a premium, trust-first eCommerce website called “Legacy Gadgets”.
+
+Core Identity:
+Legacy Gadgets is a modern tech accessory brand focused on quality, durability, and long-term value — not cheap, disposable gadgets. The brand should feel established, confident, and curated.
+
+Design Style:
+- Dark, luxury-inspired theme
+- Minimalist layout with generous spacing
+- Clean typography (modern sans-serif)
+- No flashy colors or animations
+- High contrast for readability
+- Premium, Apple-like aesthetic
+
+Homepage Structure:
+1. Hero Section
+   - Strong headline: “Accessories Built to Last.”
+   - Subheadline: “Curated tech accessories for iPhone, gaming, and sound — chosen for quality, performance, and everyday reliability.”
+   - Primary CTA: “Shop Collection”
+   - Secondary CTA: “Explore iPhone Accessories”
+
+2. Trust & Value Section
+   Display short, confident trust signals:
+   - Quality-Checked Products
+   - Secure Payments
+   - Reliable Delivery
+   - Customer Support That Responds
+
+3. Featured Categories
+   Create clean category cards for:
+   - iPhone Accessories
+   - Audio & EarPods
+   - Speakers
+   - Gaming Accessories
+   - Power & Charging
+
+4. Best Sellers Section
+   - Show 4–6 curated products
+   - Clean product cards with image, name, and price
+   - No clutter or unnecessary badges
+
+5. Brand Value Section (“Why Legacy Gadgets”)
+   Explain clearly:
+   - Products are curated, not mass-listed
+   - Focus on durability, performance, and design
+   - Accessories chosen to match modern devices and lifestyles
+   - A brand built for trust and long-term use
+
+6. Footer
+   Include:
+   - About Legacy Gadgets
+   - Contact
+   - FAQs
+   - Shipping & Returns
+   - Privacy Policy
+   - Terms of Service
+
+Product Page Structure:
+- Large, high-quality product images
+- Clear, confident product name (avoid generic model numbers)
+- Short paragraph describing the outcome and experience of using the product
+- Bullet points focused on benefits, not technical specs
+- Clear pricing and “Add to Cart” button
+- Trust reminders (secure checkout, easy returns, support)
+
+Tone & Language:
+- Professional, calm, confident
+- Human and trustworthy
+- Avoid hype, slang, or exaggerated claims
+- Write as a brand that expects to be trusted
+
+Technical Requirements:
+- Mobile-first responsive design (iPhone priority)
+- Fast loading and lightweight
+- Clean semantic HTML structure
+- SEO-friendly headings and metadata
+- Simple, intuitive navigation
+
+Important Rules:
+- Do NOT overcrowd the store with products
+- Do NOT use low-quality placeholder text
+- Do NOT design like a generic dropshipping store
+- The store must feel like a real brand with standards
+
+Goal:
+Create an eCommerce website that makes visitors feel safe, confident, and assured — a store that looks and feels like it has been around for years, even if it is new.
