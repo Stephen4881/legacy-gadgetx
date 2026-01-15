@@ -8,8 +8,8 @@ export function BestSellers() {
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-heading font-bold tracking-tight mb-12 text-center">Featured Collection</h2>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {products.slice(0, 4).map((product) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          {products.map((product) => (
             <div key={product.id} className="group flex flex-col">
               <Link href={`/product/${product.id}`}>
                 <a className="block relative aspect-square overflow-hidden rounded-xl bg-white mb-4">

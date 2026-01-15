@@ -4,10 +4,23 @@ import speakerImg from '@assets/stock_images/modern_minimalist_bl_efa6166f.jpg';
 import gamingImg from '@assets/stock_images/premium_gaming_mouse_4a49d577.jpg';
 import chargerImg from '@assets/stock_images/minimalist_wireless__cfd25a34.jpg';
 
-// New attached assets
+// Attached assets from previous turn
 import iphoneBlackImg from '@assets/IMG_0038_1768494471947.jpeg';
 import storeOpenImg from '@assets/IMG_0033_1768494471947.png';
 import storeFrontImg from '@assets/IMG_0034_1768494471947.png';
+
+// New attached assets
+import iphoneBoxesImg from '@assets/IMG_0058_1768503840454.jpeg';
+import colorfulPhonesImg from '@assets/IMG_0057_1768503840454.jpeg';
+import phoneFanImg from '@assets/IMG_0056_1768503840454.jpeg';
+import phoneStandImg from '@assets/IMG_0055_1768503840454.jpeg';
+import premiumSelectionImg from '@assets/IMG_0054_1768503840454.jpeg';
+import cloudCollectionImg from '@assets/IMG_0053_1768503840454.jpeg';
+import goldUnboxingImg from '@assets/IMG_0050_1768503840454.jpeg';
+import retailExperienceImg from '@assets/IMG_0051_1768503840454.jpeg';
+import colorGridImg from '@assets/IMG_0052_1768503840454.jpeg';
+import stealthUnboxingImg from '@assets/IMG_0049_1768503840454.jpeg';
+import whiteProImg from '@assets/IMG_0048_1768503840454.jpeg';
 
 export interface Product {
   id: string;
@@ -28,6 +41,24 @@ export const products: Product[] = [
     image: iphoneBlackImg,
     description: 'The pinnacle of mobile technology. Forged in titanium and finished in a deep, stealth black. Experience unparalleled performance and durability.',
     features: ['Titanium design', 'A17 Pro chip', 'Advanced camera system', 'Stealth Black finish']
+  },
+  {
+    id: 'pro-white',
+    name: 'iPhone 15 Pro - Titanium White',
+    price: 999.00,
+    category: 'iPhone Accessories',
+    image: whiteProImg,
+    description: 'Purity in performance. The Titanium White finish offers a clean, architectural look for the most powerful iPhone yet.',
+    features: ['Aerospace-grade titanium', 'Action button', 'USB-C charging', 'Ceramic Shield front']
+  },
+  {
+    id: 'gold-pro',
+    name: 'iPhone 15 Pro - Desert Titanium',
+    price: 1099.00,
+    category: 'iPhone Accessories',
+    image: goldUnboxingImg,
+    description: 'A sophisticated take on gold. This desert-inspired titanium finish combines luxury with the rugged durability Legacy Gadgets is known for.',
+    features: ['Custom Pro motion', 'Longest battery life', 'Advanced Zoom', 'Luxury finish']
   },
   {
     id: '2',
@@ -65,6 +96,18 @@ export const products: Product[] = [
     description: 'Fast, efficient wireless charging in a sleek matte finish. Keeps your devices powered without the cable clutter.',
     features: ['15W fast charging', 'Premium matte finish', 'Non-slip surface', 'Overheat protection']
   }
+];
+
+export const galleryImages = [
+  iphoneBoxesImg,
+  colorfulPhonesImg,
+  phoneFanImg,
+  phoneStandImg,
+  premiumSelectionImg,
+  cloudCollectionImg,
+  retailExperienceImg,
+  colorGridImg,
+  stealthUnboxingImg
 ];
 
 export const storeImages = {
