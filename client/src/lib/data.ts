@@ -4,6 +4,11 @@ import speakerImg from '@assets/stock_images/modern_minimalist_bl_efa6166f.jpg';
 import gamingImg from '@assets/stock_images/premium_gaming_mouse_4a49d577.jpg';
 import chargerImg from '@assets/stock_images/minimalist_wireless__cfd25a34.jpg';
 
+// New attached assets
+import iphoneBlackImg from '@assets/IMG_0038_1768494471947.jpeg';
+import storeOpenImg from '@assets/IMG_0033_1768494471947.png';
+import storeFrontImg from '@assets/IMG_0034_1768494471947.png';
+
 export interface Product {
   id: string;
   name: string;
@@ -17,12 +22,12 @@ export interface Product {
 export const products: Product[] = [
   {
     id: '1',
-    name: 'Legacy Leather Case',
-    price: 59.99,
+    name: 'iPhone 15 Pro Max - Stealth Black',
+    price: 1199.00,
     category: 'iPhone Accessories',
-    image: iphoneCaseImg,
-    description: 'Handcrafted from premium full-grain leather that develops a unique patina over time. Designed for protection and elegance.',
-    features: ['Full-grain leather', 'MagSafe compatible', 'Microfiber lining', 'Raised edges for screen protection']
+    image: iphoneBlackImg,
+    description: 'The pinnacle of mobile technology. Forged in titanium and finished in a deep, stealth black. Experience unparalleled performance and durability.',
+    features: ['Titanium design', 'A17 Pro chip', 'Advanced camera system', 'Stealth Black finish']
   },
   {
     id: '2',
@@ -62,11 +67,16 @@ export const products: Product[] = [
   }
 ];
 
+export const storeImages = {
+  open: storeOpenImg,
+  front: storeFrontImg
+};
+
 export const categories = [
   {
     id: 'iphone',
     name: 'iPhone Accessories',
-    image: iphoneCaseImg
+    image: iphoneBlackImg
   },
   {
     id: 'audio',
