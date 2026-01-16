@@ -45,7 +45,7 @@ export function Navbar() {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
           <Input 
             placeholder="Search accessories..." 
-            className="pl-10 rounded-full bg-white/5 border-white/10 focus:bg-white/10 transition-all"
+            className="pl-10 rounded-full bg-white/5 border-white/10 focus:bg-white/10 transition-all h-9"
           />
         </div>
 
@@ -55,7 +55,7 @@ export function Navbar() {
             {navLinks.map((link) => (
               <Link key={link.name} href={link.href}>
                 <a className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors flex items-center gap-1.5">
-                  {link.icon && <link.icon className="h-3.5 w-3.5" />}
+                  {link.icon && <link.icon className="h-3.5 w-3.5 text-primary/70" />}
                   {link.name}
                 </a>
               </Link>
