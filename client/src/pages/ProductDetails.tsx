@@ -4,11 +4,19 @@ import { Footer } from "@/components/layout/Footer";
 import { products } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import { Check, Shield, Truck } from "lucide-react";
+import { useEffect } from "react";
 import NotFound from "./not-found";
 
 export default function ProductDetails() {
   const [match, params] = useRoute("/product/:id");
   const product = products.find(p => p.id === params?.id);
+
+  useEffect(() => {
+    if (product) {
+      // Simulate interest tracking
+      localStorage.setItem("last_category", product.category.split(' ')[0]);
+    }
+  }, [product]);
 
   if (!product) return <NotFound />;
 

@@ -5,6 +5,8 @@ import { TrustSection } from "@/components/home/TrustSection";
 import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { BestSellers } from "@/components/home/BestSellers";
 import { BrandValues } from "@/components/home/BrandValues";
+import { AccessoryFinder } from "@/components/home/AccessoryFinder";
+import { PersonalizedRecommendations } from "@/components/home/PersonalizedRecommendations";
 import { galleryImages } from "@/lib/data";
 
 function Gallery() {
@@ -31,7 +33,9 @@ export default function Home() {
       <main>
         <Hero />
         <TrustSection />
+        <AccessoryFinder />
         <CategoryGrid />
+        <PersonalizedRecommendations />
         <BestSellers />
         <Gallery />
         <BrandValues />
