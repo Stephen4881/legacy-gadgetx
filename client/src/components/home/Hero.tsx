@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import heroImg from '@assets/stock_images/premium_wireless_hea_761fb19d.jpg'; // Using headphones as hero
+import heroImg from '@assets/IMG_0054_1768559077100.jpeg'; // Using the specified background image
 
 export function Hero() {
   return (
