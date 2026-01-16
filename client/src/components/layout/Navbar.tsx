@@ -26,10 +26,10 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${
+      className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 border-b ${
         isScrolled
-          ? "bg-background/80 backdrop-blur-md border-border/40 py-3 shadow-sm"
-          : "bg-transparent py-5 border-transparent"
+          ? "bg-background/95 backdrop-blur-md border-border/40 py-3 shadow-lg"
+          : "bg-background py-5 border-border/20"
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-4">
