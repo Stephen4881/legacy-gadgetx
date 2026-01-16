@@ -69,34 +69,34 @@
 }
 
 .dark {
-  /* Deep Luxury Dark Mode */
-  --background: 240 5% 5%; /* Very deep charcoal/black */
-  --foreground: 0 0% 95%;
+  /* Deep Luxury Dark Mode - Refined for "Modern Web Design" */
+  --background: 240 10% 3.9%; /* Slightly deeper black */
+  --foreground: 0 0% 98%;
   
-  --card: 240 5% 8%; /* Slightly lighter than background */
-  --card-foreground: 0 0% 95%;
+  --card: 240 10% 6%; /* Deep card background */
+  --card-foreground: 0 0% 98%;
   
-  --popover: 240 5% 8%;
-  --popover-foreground: 0 0% 95%;
+  --popover: 240 10% 6%;
+  --popover-foreground: 0 0% 98%;
   
-  --primary: 0 0% 95%; /* White text for primary actions */
-  --primary-foreground: 240 5% 5%;
+  --primary: 0 0% 100%; /* Pure white primary */
+  --primary-foreground: 240 10% 3.9%;
   
-  --secondary: 240 4% 16%;
+  --secondary: 240 4.8% 12%;
   --secondary-foreground: 0 0% 98%;
   
-  --muted: 240 4% 16%;
-  --muted-foreground: 240 5% 65%;
+  --muted: 240 4.8% 12%;
+  --muted-foreground: 240 5% 64.9%;
   
-  --accent: 240 4% 20%;
+  --accent: 240 4.8% 15%;
   --accent-foreground: 0 0% 98%;
   
-  --destructive: 0 62% 30%;
+  --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
   
-  --border: 240 4% 16%;
-  --input: 240 4% 16%;
-  --ring: 240 5% 84%;
+  --border: 240 3.7% 12%;
+  --input: 240 3.7% 12%;
+  --ring: 240 4.9% 83.9%;
 }
 
 @layer base {
