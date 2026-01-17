@@ -117,28 +117,23 @@ export const storeImages = {
 
 export const categories = [
   {
-    id: 'iphone',
-    name: 'iPhone Accessories',
+    id: 'phones',
+    name: 'Smartphones',
     image: iphoneBlackImg
   },
   {
-    id: 'audio',
-    name: 'Audio & EarPods',
+    id: 'laptops',
+    name: 'Laptops',
     image: headphonesImg
   },
   {
-    id: 'speakers',
-    name: 'Speakers',
-    image: speakerImg
-  },
-  {
     id: 'gaming',
-    name: 'Gaming Accessories',
+    name: 'Games & Consoles',
     image: gamingImg
   },
   {
-    id: 'power',
-    name: 'Power & Charging',
-    image: chargerImg
+    id: 'repairs',
+    name: 'iRepairs',
+    image: storeFrontImg
   }
 ];

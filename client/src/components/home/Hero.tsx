@@ -41,9 +41,9 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg md:text-xl text-muted-foreground mb-10 max-w-lg leading-relaxed"
+            className="text-lg md:text-xl text-muted-foreground mb-10 max-w-xl leading-relaxed"
           >
-            Curated tech accessories for iPhone, gaming, and sound — chosen for quality, performance, and everyday reliability.
+            Dealers on UK used iPhones, brand new iPhones, Android phones, Samsung phones, Laptops, and games. Premium quality, guaranteed.
           </motion.p>
 
           <motion.div 

@@ -8,6 +8,7 @@ import { BrandValues } from "@/components/home/BrandValues";
 import { AccessoryFinder } from "@/components/home/AccessoryFinder";
 import { PersonalizedRecommendations } from "@/components/home/PersonalizedRecommendations";
 import { galleryImages } from "@/lib/data";
+import { IRepairs } from "@/components/home/IRepairs";
 
 function Gallery() {
   return (
@@ -33,9 +34,10 @@ export default function Home() {
       <main>
         <Hero />
         <BestSellers />
+        <CategoryGrid />
+        <IRepairs />
         <TrustSection />
         <AccessoryFinder />
-        <CategoryGrid />
         <PersonalizedRecommendations />
         <Gallery />
         <BrandValues />
