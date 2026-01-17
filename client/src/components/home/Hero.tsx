@@ -32,7 +32,7 @@ export function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold tracking-tight text-foreground mb-6 leading-[1.1]">
-              Accessories <br />
+              Legacy Gadgets <br />
               <span className="text-muted-foreground">Built to Last.</span>
             </h1>
           </motion.div>
