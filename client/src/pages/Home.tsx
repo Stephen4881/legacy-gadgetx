@@ -33,13 +33,13 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Gallery />
         <BestSellers />
         <CategoryGrid />
         <IRepairs />
         <TrustSection />
         <AccessoryFinder />
         <PersonalizedRecommendations />
-        <Gallery />
         <BrandValues />
       </main>
       <Footer />
