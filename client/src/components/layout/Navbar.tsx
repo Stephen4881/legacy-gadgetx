@@ -37,7 +37,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/">
           <a className="font-heading font-bold text-xl md:text-2xl tracking-tighter text-foreground hover:opacity-90 transition-opacity shrink-0">
-            Legacy Gadgets
+            Legacy Gadget’x
           </a>
         </Link>
 
@@ -69,7 +69,7 @@ export function Navbar() {
               <span className="sr-only">Chat</span>
             </Button>
             
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/2347032220586" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="sm" className="rounded-full gap-2 border-[#25D366]/30 hover:bg-[#25D366]/10 hover:text-[#25D366]">
                 <MessageCircle className="h-4 w-4" />
                 Expert

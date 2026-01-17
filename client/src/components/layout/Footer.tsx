@@ -8,21 +8,32 @@ export function Footer() {
           <div className="md:col-span-1">
             <Link href="/">
               <a className="font-heading font-bold text-xl tracking-tighter block mb-4">
-                Legacy Gadgets
+                Legacy Gadget’x
               </a>
             </Link>
-            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              Curated tech accessories chosen for quality, performance, and everyday reliability. Built to last.
-            </p>
+            <div className="text-muted-foreground text-sm leading-relaxed space-y-4">
+              <p>
+                Dealers on UK used iPhones, brand new iPhones, Android phones, Samsung phones, Laptops, and games.
+              </p>
+              <div className="space-y-2 pt-4 border-t border-border/50">
+                <p className="font-medium text-foreground">Find Us</p>
+                <p>No49b okporo road off artillery junction port harcourt Nigeria</p>
+              </div>
+              <div className="space-y-1">
+                <p className="font-medium text-foreground">Contact</p>
+                <p>07032220586</p>
+                <p>victorodigha@gmail.com</p>
+              </div>
+            </div>
           </div>
 
           <div>
-            <h4 className="font-heading font-semibold mb-4 text-sm uppercase tracking-wider">Shop</h4>
+            <h4 className="font-heading font-semibold mb-4 text-sm uppercase tracking-wider">Services</h4>
             <ul className="space-y-3">
-              <li><Link href="/category/iphone"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">iPhone Accessories</a></Link></li>
-              <li><Link href="/category/audio"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Audio & Sound</a></Link></li>
-              <li><Link href="/category/gaming"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Gaming</a></Link></li>
-              <li><Link href="/category/power"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Power & Charging</a></Link></li>
+              <li><Link href="/shop"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Phones & Laptops</a></Link></li>
+              <li><Link href="/repairs"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">iRepairs</a></Link></li>
+              <li><Link href="/swap"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Swap Program</a></Link></li>
+              <li><Link href="/savings"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Savings Plan</a></Link></li>
             </ul>
           </div>
 
@@ -48,7 +59,7 @@ export function Footer() {
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Legacy Gadgets. All rights reserved.
+            © {new Date().getFullYear()} Legacy Gadget’x. All rights reserved.
           </p>
           <div className="flex gap-4">
             <span className="text-xs text-muted-foreground">Secure Payments</span>

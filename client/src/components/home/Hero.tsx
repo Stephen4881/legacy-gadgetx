@@ -9,7 +9,7 @@ export function Hero() {
     { name: "Shop", href: "/shop", icon: ShoppingBag, color: "bg-blue-500/10 text-blue-500" },
     { name: "Swap", href: "/swap", icon: Repeat, color: "bg-green-500/10 text-green-500" },
     { name: "Savings", href: "/savings", icon: PiggyBank, color: "bg-amber-500/10 text-amber-500" },
-    { name: "Support", href: "https://wa.me/1234567890", icon: MessageCircle, color: "bg-emerald-500/10 text-emerald-500", external: true },
+    { name: "Support", href: "https://wa.me/2347032220586", icon: MessageCircle, color: "bg-emerald-500/10 text-emerald-500", external: true },
   ];
 
   return (
