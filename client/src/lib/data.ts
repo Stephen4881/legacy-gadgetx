@@ -22,6 +22,24 @@ import colorGridImg from '@assets/IMG_0052_1768503840454.jpeg';
 import stealthUnboxingImg from '@assets/IMG_0049_1768503840454.jpeg';
 import whiteProImg from '@assets/IMG_0048_1768503840454.jpeg';
 
+// New attached assets from user
+import cableImg from '@assets/IMG_0085_1768650407043.jpeg';
+import airpodsImg from '@assets/IMG_0084_1768650407043.jpeg';
+import ultraWatchImg from '@assets/IMG_0082_1768650407043.jpeg';
+import jblCubeImg from '@assets/IMG_0081_1768650407043.jpeg';
+import ps5Img from '@assets/IMG_0080_1768650407043.jpeg';
+import iphoneXImg from '@assets/IMG_0079_1768650407043.jpeg';
+import magsafeCaseImg from '@assets/IMG_0078_1768650407043.jpeg';
+import xrGridImg from '@assets/IMG_0076_1768650407044.jpeg';
+import iphone15ColorsImg from '@assets/IMG_0075_1768650407044.jpeg';
+import jblOverEarImg from '@assets/IMG_0071_1768650407044.jpeg';
+import keenControllerImg from '@assets/IMG_0073_1768650407044.jpeg';
+import bluloryControllerImg from '@assets/IMG_0072_1768650407044.jpeg';
+import jblStackImg from '@assets/IMG_0070_1768650407044.jpeg';
+import jblCharge6Img from '@assets/IMG_0069_1768650407044.jpeg';
+import ps6MockImg from '@assets/IMG_0074_1768650407044.jpeg';
+import iphone11StackImg from '@assets/IMG_0077_1768650407044.jpeg';
+
 export interface Product {
   id: string;
   name: string;
@@ -34,80 +52,80 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: '1',
-    name: 'iPhone 15 Pro Max - Stealth Black',
+    id: 'ps6-concept',
+    name: 'PlayStation 6 - Next Gen Pro',
+    price: 899.00,
+    category: 'Games & Consoles',
+    image: ps6MockImg,
+    description: 'The future of gaming is here. Experience 8K gaming and ultra-fast loading with the next generation of PlayStation.',
+    features: ['8K Native Resolution', '2TB SSD', 'Haptic DualSense 2', 'Ray Tracing Pro']
+  },
+  {
+    id: 'iphone-15-pro-max',
+    name: 'iPhone 15 Pro Max',
     price: 1199.00,
-    category: 'iPhone Accessories',
-    image: iphoneBlackImg,
-    description: 'The pinnacle of mobile technology. Forged in titanium and finished in a deep, stealth black. Experience unparalleled performance and durability.',
-    features: ['Titanium design', 'A17 Pro chip', 'Advanced camera system', 'Stealth Black finish']
+    category: 'Smartphones',
+    image: iphone15ColorsImg,
+    description: 'The ultimate iPhone. Titanium design, A17 Pro chip, and a professional-grade camera system.',
+    features: ['Titanium build', 'A17 Pro chip', '5x Telephoto', 'USB-C']
   },
   {
-    id: 'pro-white',
-    name: 'iPhone 15 Pro - Titanium White',
-    price: 999.00,
-    category: 'iPhone Accessories',
-    image: whiteProImg,
-    description: 'Purity in performance. The Titanium White finish offers a clean, architectural look for the most powerful iPhone yet.',
-    features: ['Aerospace-grade titanium', 'Action button', 'USB-C charging', 'Ceramic Shield front']
+    id: 'jbl-charge-6',
+    name: 'JBL Charge 6 - Waterproof',
+    price: 179.00,
+    category: 'Audio & Sound',
+    image: jblCharge6Img,
+    description: 'Powerful sound with up to 24 hours of battery life. Built-in powerbank to charge your devices on the go.',
+    features: ['24hr Battery', 'IP67 Waterproof', 'PartyBoost', 'Powerbank built-in']
   },
   {
-    id: 'gold-pro',
-    name: 'iPhone 15 Pro - Desert Titanium',
-    price: 1099.00,
-    category: 'iPhone Accessories',
-    image: goldUnboxingImg,
-    description: 'A sophisticated take on gold. This desert-inspired titanium finish combines luxury with the rugged durability Legacy Gadgets is known for.',
-    features: ['Custom Pro motion', 'Longest battery life', 'Advanced Zoom', 'Luxury finish']
+    id: 'ultra-watch-series',
+    name: 'Apple Watch Ultra - Orange Alpine',
+    price: 799.00,
+    category: 'Smartphones',
+    image: ultraWatchImg,
+    description: 'The most rugged and capable Apple Watch. Designed for the extremes.',
+    features: ['Aerospace Titanium', 'Dual-frequency GPS', '36hr Battery', 'Water resistance 100m']
   },
   {
-    id: '2',
-    name: 'Sonic Pro Wireless',
-    price: 349.00,
-    category: 'Audio & EarPods',
-    image: headphonesImg,
-    description: 'Immersive sound with industry-leading noise cancellation. Crafted with lightweight aluminum and memory foam for all-day comfort.',
-    features: ['Active Noise Cancellation', '30-hour battery life', 'Premium aluminum build', 'Transparency mode']
+    id: 'jbl-tune-760nc',
+    name: 'JBL Tune 760NC Wireless',
+    price: 129.00,
+    category: 'Audio & Sound',
+    image: jblOverEarImg,
+    description: 'Your music, noise-free. Light weight and foldable design for every day use.',
+    features: ['Active Noise Cancelling', 'Pure Bass Sound', '35H Battery', 'Hands-free calls']
   },
   {
-    id: '3',
-    name: 'Aura Bluetooth Speaker',
-    price: 199.00,
-    category: 'Speakers',
-    image: speakerImg,
-    description: 'Room-filling sound in a compact, minimalist design. The Aura Speaker blends seamlessly into any modern interior.',
-    features: ['360-degree sound', '12-hour playtime', 'Water-resistant', 'Multi-room pairing']
+    id: 'ps5-slim-edition',
+    name: 'PlayStation 5 Slim Edition',
+    price: 499.00,
+    category: 'Games & Consoles',
+    image: ps5Img,
+    description: 'Experience lightning-fast loading with an ultra-high speed SSD and deeper immersion.',
+    features: ['Ultra-High Speed SSD', 'Ray Tracing', '4K Gaming', 'HDR Technology']
   },
   {
-    id: '4',
-    name: 'Precision Gaming Set',
-    price: 149.00,
-    category: 'Gaming Accessories',
-    image: gamingImg,
-    description: 'Engineered for esports performance. Low-latency wireless connection and tactile mechanical switches for the ultimate advantage.',
-    features: ['Mechanical switches', 'Ultra-low latency', 'Ergonomic design', 'RGB customizable lighting']
-  },
-  {
-    id: '5',
-    name: 'Flux Wireless Charger',
-    price: 79.00,
-    category: 'Power & Charging',
-    image: chargerImg,
-    description: 'Fast, efficient wireless charging in a sleek matte finish. Keeps your devices powered without the cable clutter.',
-    features: ['15W fast charging', 'Premium matte finish', 'Non-slip surface', 'Overheat protection']
+    id: 'keen-wireless-controller',
+    name: 'Keen 2.4G Wireless Controller',
+    price: 45.00,
+    category: 'Games & Consoles',
+    image: keenControllerImg,
+    description: 'High sensitivity and precise control for your gaming setup. Dual shock feedback.',
+    features: ['2.4G Wireless', 'Ergonomic Design', 'Dual Vibration', 'Long Battery Life']
   }
 ];
 
 export const galleryImages = [
-  iphoneBoxesImg,
-  colorfulPhonesImg,
-  phoneFanImg,
-  phoneStandImg,
-  premiumSelectionImg,
-  cloudCollectionImg,
-  retailExperienceImg,
-  colorGridImg,
-  stealthUnboxingImg
+  iphone11StackImg,
+  xrGridImg,
+  iphoneXImg,
+  magsafeCaseImg,
+  jblCubeImg,
+  airpodsImg,
+  cableImg,
+  bluloryControllerImg,
+  jblStackImg
 ];
 
 export const storeImages = {
