@@ -33,8 +33,10 @@ export function Hero() {
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold tracking-tight mb-6 leading-[1.1]">
               <span className="text-red-600">LEGACY</span> <br />
-              <span className="text-white uppercase">GADGETS</span> <br />
-              <span className="text-muted-foreground normal-case">Built to Last.</span>
+              <span className="text-white uppercase">GADGET’X</span> <br />
+              <div className="text-left">
+                <span className="text-muted-foreground normal-case text-2xl md:text-3xl">Built to Last.</span>
+              </div>
             </h1>
           </motion.div>
 
