@@ -9,6 +9,7 @@ import ProductDetails from "@/pages/ProductDetails";
 import Shop from "@/pages/Shop";
 import Category from "@/pages/Category";
 import SavingsPlan from "@/pages/SavingsPlan";
+import Swap from "@/pages/Swap";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/shop" component={Shop} />
       <Route path="/savings" component={SavingsPlan} />
+      <Route path="/swap" component={Swap} />
       <Route path="/category/:id" component={Category} />
       <Route path="/product/:id" component={ProductDetails} />
       <Route component={NotFound} />

@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { ShoppingBag, Menu, MessageCircle, Search, PiggyBank, MessageSquare } from "lucide-react";
+import { ShoppingBag, Menu, MessageCircle, Search, PiggyBank, MessageSquare, Repeat } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
@@ -21,6 +21,7 @@ export function Navbar() {
     { name: "Home", href: "/" },
     { name: "Shop", href: "/shop" },
     { name: "iPhone", href: "/category/iphone" },
+    { name: "Swap", href: "/swap", icon: Repeat },
     { name: "Savings Plan", href: "/savings", icon: PiggyBank },
   ];
 
