@@ -31,9 +31,10 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold tracking-tight text-foreground mb-6 leading-[1.1]">
-              Legacy Gadgets <br />
-              <span className="text-muted-foreground">Built to Last.</span>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold tracking-tight mb-6 leading-[1.1]">
+              <span className="text-red-600">LEGACY</span> <br />
+              <span className="text-white uppercase">GADGETS</span> <br />
+              <span className="text-muted-foreground normal-case">Built to Last.</span>
             </h1>
           </motion.div>
 

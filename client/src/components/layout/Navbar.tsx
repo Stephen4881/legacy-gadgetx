@@ -36,8 +36,8 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/">
-          <a className="font-heading font-bold text-xl md:text-2xl tracking-tighter text-foreground hover:opacity-90 transition-opacity shrink-0">
-            Legacy Gadget’x
+          <a className="font-heading font-bold text-xl md:text-2xl tracking-tighter hover:opacity-90 transition-opacity shrink-0">
+            <span className="text-red-600">LEGACY</span> <span className="text-white">GADGET’X</span>
           </a>
         </Link>
 

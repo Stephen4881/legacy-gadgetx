@@ -8,7 +8,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <Link href="/">
               <a className="font-heading font-bold text-xl tracking-tighter block mb-4">
-                Legacy Gadget’x
+                <span className="text-red-600">LEGACY</span> <span className="text-white">GADGET’X</span>
               </a>
             </Link>
             <div className="text-muted-foreground text-sm leading-relaxed space-y-4">
