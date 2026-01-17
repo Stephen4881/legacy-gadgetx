@@ -40,6 +40,12 @@ import jblCharge6Img from '@assets/IMG_0069_1768650407044.jpeg';
 import ps6MockImg from '@assets/IMG_0074_1768650407044.jpeg';
 import iphone11StackImg from '@assets/IMG_0077_1768650407044.jpeg';
 
+// Latest batch of laptop and lifestyle images
+import hpStackSideImg from '@assets/IMG_0088_1768650805656.jpeg';
+import hpStackFrontImg from '@assets/IMG_0087_1768650805656.jpeg';
+import macbookBoxImg from '@assets/IMG_0086_1768650805656.jpeg';
+import kawsLifestyleImg from '@assets/IMG_0068_1768650805656.jpeg';
+
 export interface Product {
   id: string;
   name: string;
@@ -113,10 +119,30 @@ export const products: Product[] = [
     image: keenControllerImg,
     description: 'High sensitivity and precise control for your gaming setup. Dual shock feedback.',
     features: ['2.4G Wireless', 'Ergonomic Design', 'Dual Vibration', 'Long Battery Life']
+  },
+  {
+    id: 'macbook-pro-m3',
+    name: 'MacBook Pro M3 - Space Gray',
+    price: 1999.00,
+    category: 'Laptops',
+    image: macbookBoxImg,
+    description: 'The world\'s most advanced laptop for professionals. Power meets elegance with the M3 chip.',
+    features: ['M3 Chip', 'Liquid Retina XDR', '20hr Battery', 'MagSafe 3']
+  },
+  {
+    id: 'hp-elitebook-stack',
+    name: 'HP EliteBook Series (Bulk)',
+    price: 450.00,
+    category: 'Laptops',
+    image: hpStackFrontImg,
+    description: 'Reliable, powerful, and built for business. Large stock of UK used HP EliteBooks available.',
+    features: ['Core i5/i7', '8GB/16GB RAM', 'SSD Storage', 'Full HD Display']
   }
 ];
 
 export const galleryImages = [
+  macbookBoxImg,
+  hpStackSideImg,
   iphone11StackImg,
   xrGridImg,
   iphoneXImg,
@@ -125,7 +151,8 @@ export const galleryImages = [
   airpodsImg,
   cableImg,
   bluloryControllerImg,
-  jblStackImg
+  jblStackImg,
+  kawsLifestyleImg
 ];
 
 export const storeImages = {
