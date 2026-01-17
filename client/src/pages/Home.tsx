@@ -32,11 +32,11 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <BestSellers />
         <TrustSection />
         <AccessoryFinder />
         <CategoryGrid />
         <PersonalizedRecommendations />
-        <BestSellers />
         <Gallery />
         <BrandValues />
       </main>
