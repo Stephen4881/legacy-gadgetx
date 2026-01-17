@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { ShoppingBag, Menu, MessageCircle, Search, PiggyBank, MessageSquare, Repeat } from "lucide-react";
+import { ShoppingBag, Menu, MessageCircle, Search, PiggyBank, MessageSquare, Repeat, MapPin } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
@@ -26,8 +26,21 @@ export function Navbar() {
   ];
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 border-b ${
+    <>
+      <div className="bg-red-600 text-white py-2 px-4 text-center text-[10px] md:text-sm flex items-center justify-center gap-2 fixed top-0 left-0 right-0 z-[110]">
+        <MapPin className="h-3 w-3 shrink-0" />
+        <span className="truncate">No49b okporo road off artillery junction port harcourt Nigeria</span>
+        <a 
+          href="https://www.google.com/maps/search/?api=1&query=No49b+okporo+road+off+artillery+junction+port+harcourt+Nigeria" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="underline ml-2 font-bold whitespace-nowrap"
+        >
+          View Map
+        </a>
+      </div>
+      <nav
+        className={`fixed top-[32px] md:top-[36px] left-0 right-0 z-[100] transition-all duration-300 border-b ${
         isScrolled
           ? "bg-background/95 backdrop-blur-md border-border/40 py-3 shadow-lg"
           : "bg-background py-5 border-border/20"
@@ -106,7 +119,7 @@ export function Navbar() {
                   </Link>
                 ))}
                 <div className="pt-6 border-t border-border space-y-4">
-                  <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg font-medium text-[#25D366]">
+                  <a href="https://wa.me/2347032220586" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg font-medium text-[#25D366]">
                     <MessageCircle className="h-6 w-6" />
                     Contact Sales
                   </a>
@@ -121,5 +134,6 @@ export function Navbar() {
         </div>
       </div>
     </nav>
+    </>
   );
 }
