@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-import { LiveChat } from "@/components/chat/LiveChat";
+import logoImg from "@/assets/logo.jpeg";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,8 +51,12 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/">
-          <a className="font-heading font-bold text-xl md:text-2xl tracking-tighter hover:opacity-90 transition-opacity shrink-0">
-            <span className="text-red-600">LEGACY</span> <span className="text-white">GADGET’X</span>
+          <a className="flex items-center gap-2 hover:opacity-90 transition-opacity shrink-0">
+            <img src={logoImg} alt="Legacy Gadget'x" className="h-10 w-10 md:h-12 md:w-12 rounded-full border border-white/10 shadow-lg" />
+            <div className="flex flex-col -space-y-1">
+              <span className="font-heading font-bold text-lg md:text-xl tracking-tighter text-red-600">LEGACY</span>
+              <span className="font-heading font-bold text-sm md:text-base tracking-tighter text-white">GADGET’X</span>
+            </div>
           </a>
         </Link>
 

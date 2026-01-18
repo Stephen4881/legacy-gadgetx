@@ -1,3 +1,4 @@
+import logoImg from "@/assets/logo.jpeg";
 import { Link } from "wouter";
 
 export function Footer() {
@@ -7,8 +8,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-1">
             <Link href="/">
-              <a className="font-heading font-bold text-xl tracking-tighter block mb-4">
-                <span className="text-red-600">LEGACY</span> <span className="text-white">GADGET’X</span>
+              <a className="flex items-center gap-2 mb-6 hover:opacity-90 transition-opacity">
+                <img src={logoImg} alt="Legacy Gadget'x" className="h-10 w-10 rounded-full border border-white/10" />
+                <div className="flex flex-col -space-y-1">
+                  <span className="font-heading font-bold text-lg tracking-tighter text-red-600">LEGACY</span>
+                  <span className="font-heading font-bold text-sm tracking-tighter text-white">GADGET’X</span>
+                </div>
               </a>
             </Link>
             <div className="text-muted-foreground text-sm leading-relaxed space-y-4">
