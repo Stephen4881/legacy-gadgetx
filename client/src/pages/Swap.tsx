@@ -23,7 +23,24 @@ export default function Swap() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a mockup, we simulate the submission
+    
+    // Construct the email body
+    const subject = `New Swap Request: ${formData.currentDevice} to ${formData.newDevice}`;
+    const body = `
+New Swap Request Received:
+-------------------------
+Current Device: ${formData.currentDevice}
+Desired Upgrade: ${formData.newDevice}
+Condition: ${formData.condition}
+Customer Email: ${formData.userEmail}
+Additional Notes: ${formData.additionalNotes || "None"}
+    `.trim();
+
+    // Redirect to Gmail with pre-filled information
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=victorodigha@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.open(gmailUrl, '_blank');
+    
+    // Move to success step
     setStep(4);
   };
 
