@@ -27,7 +27,7 @@ export function LiveChat({ forceOpen, onOpenChange }: LiveChatProps) {
 
   const messages = [
     "Welcome to Legacy Gadget'x! 🖐️",
-    "I'm Victor, how can I help you elevate your tech setup today?",
+    "Are you looking to secure our latest premium inventory or perhaps trade in your current device for a high-performance upgrade?",
   ];
 
   useEffect(() => {
