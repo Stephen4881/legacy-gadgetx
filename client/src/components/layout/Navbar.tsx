@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+import { LiveChat } from "@/components/chat/LiveChat";
 import logoImg from "@/assets/logo.jpeg";
 
 export function Navbar() {
