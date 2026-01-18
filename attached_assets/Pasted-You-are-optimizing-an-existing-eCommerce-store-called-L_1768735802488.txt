@@ -1,0 +1,58 @@
+You are optimizing an existing eCommerce store called “Legacy Gadgets” for performance, clarity, and a premium user experience.
+
+Your task is to refactor all category pages to follow these exact rules:
+
+1. Product Display Rules
+- Show a maximum of 6–8 products per category page view.
+- Use pagination or a “Load More” button instead of loading all products at once.
+- Each product card must display ONLY one image initially.
+- Additional product images must appear only on the individual product page.
+
+2. Image Optimization Rules
+- All category page images must be WEBP format.
+- Thumbnail image width must be between 400–600px.
+- Each thumbnail image file size must be ≤150KB where possible.
+- Replace any PNG or JPG images used on category pages with WEBP equivalents.
+- All non-hero images must use lazy loading: loading="lazy".
+- Explicitly set width and height attributes on images to prevent layout shift.
+
+3. Product Card Structure
+- Each product card should contain:
+  - Product image
+  - Short, clear product name
+  - Price
+  - A single call-to-action (“View Product” or “Add to Cart”)
+- Remove long descriptions, icons, badges, or unnecessary visual elements from category product cards.
+
+4. Layout & Grid Rules
+- Use a clean, consistent grid layout:
+  - Mobile: 2 columns
+  - Tablet/Desktop: 3–4 columns
+- Ensure consistent spacing and alignment across all cards.
+- Avoid oversized cards or uneven layouts.
+
+5. Category Page Content
+- At the top of each category page, include:
+  - Category title
+  - One short descriptive sentence (maximum 20 words)
+- At the bottom of each category page, include a small optional SEO-friendly text block (2–3 lines only).
+
+6. Performance Targets
+- Optimize for mobile-first performance.
+- Ensure category pages load progressively and feel fast.
+- Reduce total initial page weight by limiting image loading and content.
+
+7. Code & Cleanup
+- Update all relevant HTML, CSS, and JavaScript files to reflect these changes.
+- Remove unused styles or scripts that negatively impact category page performance.
+- Preserve the existing brand identity and dark, premium design.
+
+Important Constraints:
+- Do NOT add new products.
+- Do NOT change pricing.
+- Do NOT introduce flashy animations or effects.
+- Do NOT redesign the brand aesthetic.
+- Focus strictly on performance, clarity, and premium structure.
+
+Goal:
+Refactor the category pages so they feel fast, uncluttered, trustworthy, and premium — optimized for a real production store, not a generic dropshipping site.
