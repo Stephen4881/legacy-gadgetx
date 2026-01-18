@@ -5,9 +5,12 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+import { LiveChat } from "@/components/chat/LiveChat";
+
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [location] = useLocation();
+  const [isChatOpen, setIsChatOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,7 +80,12 @@ export function Navbar() {
           </div>
           
           <div className="flex items-center gap-3">
-             <Button variant="ghost" size="icon" className="relative group rounded-full border border-white/5 hover:bg-white/5">
+             <Button 
+               variant="ghost" 
+               size="icon" 
+               onClick={() => setIsChatOpen(true)}
+               className="relative group rounded-full border border-white/5 hover:bg-white/5"
+             >
               <MessageSquare className="h-5 w-5 text-foreground/90 group-hover:text-foreground" />
               <span className="sr-only">Chat</span>
             </Button>
@@ -134,6 +142,7 @@ export function Navbar() {
         </div>
       </div>
     </nav>
+    <LiveChat forceOpen={isChatOpen} onOpenChange={setIsChatOpen} />
     </>
   );
 }
