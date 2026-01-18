@@ -90,7 +90,7 @@ export function Navbar() {
               <span className="sr-only">Chat</span>
             </Button>
             
-            <a href="https://wa.me/2347032220586" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/message/2XW7D6B6B7B4B1" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="sm" className="rounded-full gap-2 border-[#25D366]/30 hover:bg-[#25D366]/10 hover:text-[#25D366]">
                 <MessageCircle className="h-4 w-4" />
                 Expert
@@ -127,7 +127,7 @@ export function Navbar() {
                   </Link>
                 ))}
                 <div className="pt-6 border-t border-border space-y-4">
-                  <a href="https://wa.me/2347032220586" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg font-medium text-[#25D366]">
+                  <a href="https://wa.me/message/2XW7D6B6B7B4B1" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg font-medium text-[#25D366]">
                     <MessageCircle className="h-6 w-6" />
                     Contact Sales
                   </a>

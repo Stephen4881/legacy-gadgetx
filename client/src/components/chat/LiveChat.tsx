@@ -109,7 +109,7 @@ export function LiveChat({ forceOpen, onOpenChange }: LiveChatProps) {
                   <p className="text-[10px] text-gray-500 uppercase tracking-widest font-bold px-2">Choose your preference</p>
                   
                   <a 
-                    href="https://wa.me/2347032220586" 
+                    href="https://wa.me/message/2XW7D6B6B7B4B1" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 w-full bg-[#25D366]/10 border border-[#25D366]/20 hover:bg-[#25D366]/20 p-4 rounded-2xl transition-all group"

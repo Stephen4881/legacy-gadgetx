@@ -8,8 +8,8 @@ export function Hero() {
   const quickLinks = [
     { name: "Shop", href: "/shop", icon: ShoppingBag, color: "bg-blue-500/10 text-blue-500" },
     { name: "Swap", href: "/swap", icon: Repeat, color: "bg-green-500/10 text-green-500" },
-    { name: "Repair", href: "https://wa.me/2347032220586", icon: MessageCircle, color: "bg-emerald-500/10 text-emerald-500", external: true },
-    { name: "WhatsApp", href: "https://wa.me/2347032220586", icon: MessageCircle, color: "bg-emerald-600/10 text-emerald-600", external: true },
+    { name: "Repair", href: "https://wa.me/message/2XW7D6B6B7B4B1", icon: MessageCircle, color: "bg-emerald-500/10 text-emerald-500", external: true },
+    { name: "WhatsApp", href: "https://wa.me/message/2XW7D6B6B7B4B1", icon: MessageCircle, color: "bg-emerald-600/10 text-emerald-600", external: true },
   ];
 
   return (
