@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { ShoppingBag, Search, PiggyBank, Repeat, MessageCircle } from "lucide-react";
+import { ShoppingBag, Search, PiggyBank, Repeat, MessageCircle, Mail } from "lucide-react";
 import heroImg from '@assets/IMG_0054_1768559077100.jpeg'; // Using the specified background image
 
 export function Hero() {
@@ -72,27 +72,42 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-2xl"
+            className="grid grid-cols-2 sm:grid-cols-5 gap-4 max-w-3xl"
           >
-            {quickLinks.map((link) => (
-              link.external ? (
-                <a key={link.name} href={link.href} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
-                  <div className={`p-3 rounded-xl ${link.color} mb-3 group-hover:scale-110 transition-transform`}>
-                    <link.icon className="h-6 w-6" />
-                  </div>
-                  <span className="text-sm font-medium">{link.name}</span>
-                </a>
-              ) : (
-                <Link key={link.name} href={link.href}>
-                  <a className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
-                    <div className={`p-3 rounded-xl ${link.color} mb-3 group-hover:scale-110 transition-transform`}>
-                      <link.icon className="h-6 w-6" />
-                    </div>
-                    <span className="text-sm font-medium">{link.name}</span>
-                  </a>
-                </Link>
-              )
-            ))}
+            <Link href="/shop">
+              <a className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+                <div className="p-3 rounded-xl bg-blue-500/10 text-blue-500 mb-3 group-hover:scale-110 transition-transform">
+                  <ShoppingBag className="h-6 w-6" />
+                </div>
+                <span className="text-sm font-medium">Shop</span>
+              </a>
+            </Link>
+            <Link href="/swap">
+              <a className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+                <div className="p-3 rounded-xl bg-green-500/10 text-green-500 mb-3 group-hover:scale-110 transition-transform">
+                  <Repeat className="h-6 w-6" />
+                </div>
+                <span className="text-sm font-medium">Swap</span>
+              </a>
+            </Link>
+            <a href="https://wa.me/message/2XW7D6B6B7B4B1" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+              <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-500 mb-3 group-hover:scale-110 transition-transform">
+                <MessageCircle className="h-6 w-6" />
+              </div>
+              <span className="text-xs font-medium text-center leading-tight">WhatsApp Business</span>
+            </a>
+            <a href="https://wa.me/2347032220586" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+              <div className="p-3 rounded-xl bg-[#25D366]/10 text-[#25D366] mb-3 group-hover:scale-110 transition-transform">
+                <MessageCircle className="h-6 w-6" />
+              </div>
+              <span className="text-xs font-medium text-center leading-tight">WhatsApp Messenger</span>
+            </a>
+            <a href="mailto:victorodigha@gmail.com" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+              <div className="p-3 rounded-xl bg-red-600/10 text-red-600 mb-3 group-hover:scale-110 transition-transform">
+                <Mail className="h-6 w-6" />
+              </div>
+              <span className="text-sm font-medium">Email</span>
+            </a>
           </motion.div>
         </div>
       </div>

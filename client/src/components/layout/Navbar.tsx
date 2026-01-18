@@ -94,12 +94,20 @@ export function Navbar() {
               <span className="sr-only">Chat</span>
             </Button>
             
-            <a href="https://wa.me/message/2XW7D6B6B7B4B1" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" size="sm" className="rounded-full gap-2 border-[#25D366]/30 hover:bg-[#25D366]/10 hover:text-[#25D366]">
-                <MessageCircle className="h-4 w-4" />
-                Expert
-              </Button>
-            </a>
+            <div className="flex items-center gap-2">
+              <a href="https://wa.me/message/2XW7D6B6B7B4B1" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="sm" className="rounded-full gap-2 border-[#25D366]/30 hover:bg-[#25D366]/10 hover:text-[#25D366] text-xs px-3">
+                  <MessageCircle className="h-3.5 w-3.5" />
+                  Business
+                </Button>
+              </a>
+              <a href="https://wa.me/2347032220586" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="sm" className="rounded-full gap-2 border-[#25D366]/30 hover:bg-[#25D366]/10 hover:text-[#25D366] text-xs px-3">
+                  <MessageCircle className="h-3.5 w-3.5" />
+                  Messenger
+                </Button>
+              </a>
+            </div>
             
             <Button variant="ghost" size="icon" className="relative group rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
               <ShoppingBag className="h-5 w-5" />
