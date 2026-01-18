@@ -29,8 +29,8 @@ export function BestSellers() {
                 </Link>
                 <p className="text-sm text-muted-foreground mb-4">{product.category}</p>
                 <div className="mt-auto flex items-center justify-between">
-                  <span className="font-semibold">${product.price.toFixed(2)}</span>
-                  <Button variant="outline" size="sm" className="opacity-0 group-hover:opacity-100 transition-opacity rounded-full">
+                  <span className="font-semibold text-lg text-red-600">₦{product.price.toLocaleString()}</span>
+                  <Button variant="outline" size="sm" className="opacity-0 group-hover:opacity-100 transition-opacity rounded-full border-red-600/30 text-red-600">
                     View
                   </Button>
                 </div>

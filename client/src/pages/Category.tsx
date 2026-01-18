@@ -65,7 +65,7 @@ export default function Category() {
                       </Link>
                       <div className="mt-auto flex items-center justify-between">
                         <span className="font-bold text-red-500 text-lg">
-                          ${product.price.toLocaleString()}
+                          ₦{product.price.toLocaleString()}
                         </span>
                         <Link href={`/product/${product.id}`}>
                           <Button variant="ghost" size="sm" className="text-xs uppercase tracking-widest font-bold hover:bg-red-600 hover:text-white transition-all rounded-full px-4">

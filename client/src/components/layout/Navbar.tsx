@@ -25,7 +25,6 @@ export function Navbar() {
     { name: "Shop", href: "/shop" },
     { name: "iPhone", href: "/category/iphone" },
     { name: "Swap", href: "/swap", icon: Repeat },
-    { name: "Savings Plan", href: "/savings", icon: PiggyBank },
   ];
 
   return (

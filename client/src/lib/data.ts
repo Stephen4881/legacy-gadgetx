@@ -60,7 +60,7 @@ export const products: Product[] = [
   {
     id: 'ps6-concept',
     name: 'PlayStation 6 - Next Gen Pro',
-    price: 899.00,
+    price: 1500000,
     category: 'Games & Consoles',
     image: ps6MockImg,
     description: 'The future of gaming is here. Experience 8K gaming and ultra-fast loading with the next generation of PlayStation.',
@@ -69,7 +69,7 @@ export const products: Product[] = [
   {
     id: 'iphone-15-pro-max',
     name: 'iPhone 15 Pro Max',
-    price: 1199.00,
+    price: 1850000,
     category: 'Smartphones',
     image: iphone15ColorsImg,
     description: 'The ultimate iPhone. Titanium design, A17 Pro chip, and a professional-grade camera system.',
@@ -78,7 +78,7 @@ export const products: Product[] = [
   {
     id: 'jbl-charge-6',
     name: 'JBL Charge 6 - Waterproof',
-    price: 179.00,
+    price: 250000,
     category: 'Audio & Sound',
     image: jblCharge6Img,
     description: 'Powerful sound with up to 24 hours of battery life. Built-in powerbank to charge your devices on the go.',
@@ -87,7 +87,7 @@ export const products: Product[] = [
   {
     id: 'ultra-watch-series',
     name: 'Apple Watch Ultra - Orange Alpine',
-    price: 799.00,
+    price: 950000,
     category: 'Smartphones',
     image: ultraWatchImg,
     description: 'The most rugged and capable Apple Watch. Designed for the extremes.',
@@ -96,7 +96,7 @@ export const products: Product[] = [
   {
     id: 'jbl-tune-760nc',
     name: 'JBL Tune 760NC Wireless',
-    price: 129.00,
+    price: 180000,
     category: 'Audio & Sound',
     image: jblOverEarImg,
     description: 'Your music, noise-free. Light weight and foldable design for every day use.',
@@ -105,7 +105,7 @@ export const products: Product[] = [
   {
     id: 'ps5-slim-edition',
     name: 'PlayStation 5 Slim Edition',
-    price: 499.00,
+    price: 750000,
     category: 'Games & Consoles',
     image: ps5Img,
     description: 'Experience lightning-fast loading with an ultra-high speed SSD and deeper immersion.',
@@ -114,7 +114,7 @@ export const products: Product[] = [
   {
     id: 'keen-wireless-controller',
     name: 'Keen 2.4G Wireless Controller',
-    price: 45.00,
+    price: 65000,
     category: 'Games & Consoles',
     image: keenControllerImg,
     description: 'High sensitivity and precise control for your gaming setup. Dual shock feedback.',
@@ -123,7 +123,7 @@ export const products: Product[] = [
   {
     id: 'macbook-pro-m3',
     name: 'MacBook Pro M3 - Space Gray',
-    price: 1999.00,
+    price: 2850000,
     category: 'Laptops',
     image: macbookBoxImg,
     description: 'The world\'s most advanced laptop for professionals. Power meets elegance with the M3 chip.',
@@ -132,7 +132,7 @@ export const products: Product[] = [
   {
     id: 'hp-elitebook-stack',
     name: 'HP EliteBook Series (Bulk)',
-    price: 450.00,
+    price: 450000,
     category: 'Laptops',
     image: hpStackFrontImg,
     description: 'Reliable, powerful, and built for business. Large stock of UK used HP EliteBooks available.',
