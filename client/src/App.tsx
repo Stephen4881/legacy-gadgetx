@@ -10,6 +10,7 @@ import Shop from "@/pages/Shop";
 import Category from "@/pages/Category";
 import SavingsPlan from "@/pages/SavingsPlan";
 import Swap from "@/pages/Swap";
+import AdminDashboard from "@/pages/admin/Dashboard";
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/swap" component={Swap} />
       <Route path="/category/:id" component={Category} />
       <Route path="/product/:id" component={ProductDetails} />
+      <Route path="/admin" component={AdminDashboard} />
       <Route component={NotFound} />
     </Switch>
   );
