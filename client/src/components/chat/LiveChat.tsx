@@ -115,9 +115,22 @@ export function LiveChat({ forceOpen, onOpenChange }: LiveChatProps) {
                     className="flex items-center gap-3 w-full bg-[#25D366]/10 border border-[#25D366]/20 hover:bg-[#25D366]/20 p-4 rounded-2xl transition-all group"
                   >
                     <MessageCircle className="h-5 w-5 text-[#25D366]" />
-                    <div className="text-left">
-                      <div className="text-sm font-bold text-white group-hover:text-[#25D366] transition-colors">WhatsApp Chat</div>
-                      <div className="text-[10px] text-gray-400">Instant response & repair bookings</div>
+                    <div className="text-left flex-1">
+                      <div className="text-sm font-bold text-white group-hover:text-[#25D366] transition-colors">WhatsApp Business</div>
+                      <div className="text-[10px] text-gray-400">Official catalog & repair bookings</div>
+                    </div>
+                  </a>
+
+                  <a 
+                    href="https://wa.me/2347032220586" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 w-full bg-[#25D366]/10 border border-[#25D366]/20 hover:bg-[#25D366]/20 p-4 rounded-2xl transition-all group"
+                  >
+                    <MessageCircle className="h-5 w-5 text-[#25D366]" />
+                    <div className="text-left flex-1">
+                      <div className="text-sm font-bold text-white group-hover:text-[#25D366] transition-colors">WhatsApp Messenger</div>
+                      <div className="text-[10px] text-gray-400">Direct chat with Victor</div>
                     </div>
                   </a>
 
