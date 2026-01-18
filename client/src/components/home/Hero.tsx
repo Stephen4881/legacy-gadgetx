@@ -90,13 +90,13 @@ export function Hero() {
                 <span className="text-sm font-medium">Swap</span>
               </a>
             </Link>
-            <a href="https://wa.me/message/2XW7D6B6B7B4B1" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+            <a href="https://wa.me/2347032220586?text=Hello%20Legacy%20Gadget'x,%20I'm%20interested%20in%20the%20business%20catalog." target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
               <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-500 mb-3 group-hover:scale-110 transition-transform">
                 <MessageCircle className="h-6 w-6" />
               </div>
               <span className="text-xs font-medium text-center leading-tight">WhatsApp Business</span>
             </a>
-            <a href="https://wa.me/2347032220586" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+            <a href="https://wa.me/2347032220586?text=Hi%20Victor,%20I'd%20like%20to%20chat." target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
               <div className="p-3 rounded-xl bg-[#25D366]/10 text-[#25D366] mb-3 group-hover:scale-110 transition-transform">
                 <MessageCircle className="h-6 w-6" />
               </div>

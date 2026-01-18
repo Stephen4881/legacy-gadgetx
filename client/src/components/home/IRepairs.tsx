@@ -66,7 +66,7 @@ export function IRepairs() {
         </div>
 
         <div className="mt-16 text-center">
-          <a href="https://wa.me/message/2XW7D6B6B7B4B1" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity">
+          <a href="https://wa.me/2347032220586?text=Hello%20Legacy%20iRepairs,%20I%20need%20to%20book%20a%20repair%20service." className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity">
             Book a Repair Now
           </a>
         </div>
