@@ -56,8 +56,8 @@ export function Footer() {
             <h4 className="font-heading font-semibold mb-4 text-sm uppercase tracking-wider">Company</h4>
             <ul className="space-y-3">
               <li><Link href="/about"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Our Story</a></Link></li>
+              <li><Link href="/admin"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Admin Dashboard</a></Link></li>
               <li><Link href="/privacy"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</a></Link></li>
-              <li><Link href="/terms"><a className="text-sm text-muted-foreground hover:text-foreground transition-colors">Terms of Service</a></Link></li>
             </ul>
           </div>
         </div>
