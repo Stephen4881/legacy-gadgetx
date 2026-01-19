@@ -95,13 +95,13 @@ export function Navbar() {
             </Button>
             
             <div className="flex items-center gap-2">
-              <a href="https://wa.me/2347032220586?text=Hello%20Legacy%20Gadget'x,%20I'm%20contacting%20you%20regarding%20business%20inquiries." target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/2347032220586?text=Hello%20Legacy%20Gadget%E2%80%99x%2C%20I%20am%20interested%20in%20purchasing%20a%20device%20from%20you.%20Kindly%20share%20your%20catalog." target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="sm" className="rounded-full gap-2 border-[#25D366]/30 hover:bg-[#25D366]/10 hover:text-[#25D366] text-xs px-3">
                   <MessageCircle className="h-3.5 w-3.5" />
                   Business
                 </Button>
               </a>
-              <a href="https://wa.me/2347032220586?text=Hi%20Victor,%20I%20have%20a%20personal%20inquiry." target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/2347032220586?text=Hello%20Legacy%20Gadget%E2%80%99x%2C%20I%20am%20interested%20in%20purchasing%20a%20device%20from%20you.%20Kindly%20share%20your%20catalog." target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="sm" className="rounded-full gap-2 border-[#25D366]/30 hover:bg-[#25D366]/10 hover:text-[#25D366] text-xs px-3">
                   <MessageCircle className="h-3.5 w-3.5" />
                   Messenger
