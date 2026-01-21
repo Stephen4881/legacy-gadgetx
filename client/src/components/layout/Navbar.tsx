@@ -52,13 +52,13 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/">
-          <a className="flex items-center gap-2 hover:opacity-90 transition-opacity shrink-0">
+          <div className="flex items-center gap-2 hover:opacity-90 transition-opacity shrink-0 cursor-pointer">
             <img src={logoImg} alt="Legacy Gadget'x" className="h-10 w-10 md:h-12 md:w-12 rounded-full border border-white/10 shadow-lg" />
             <div className="flex flex-col -space-y-1">
               <span className="font-heading font-bold text-lg md:text-xl tracking-tighter text-red-600">LEGACY</span>
               <span className="font-heading font-bold text-sm md:text-base tracking-tighter text-white">GADGET’X</span>
             </div>
-          </a>
+          </div>
         </Link>
 
         {/* Search - Desktop */}
@@ -75,10 +75,10 @@ export function Navbar() {
           <div className="flex items-center gap-6 mr-4 border-r border-border/40 pr-6">
             {navLinks.map((link) => (
               <Link key={link.name} href={link.href}>
-                <a className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors flex items-center gap-1.5">
+                <span className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors flex items-center gap-1.5 cursor-pointer">
                   {link.icon && <link.icon className="h-3.5 w-3.5 text-primary/70" />}
                   {link.name}
-                </a>
+                </span>
               </Link>
             ))}
           </div>
@@ -132,10 +132,10 @@ export function Navbar() {
               <div className="flex flex-col gap-6 mt-10">
                 {navLinks.map((link) => (
                   <Link key={link.name} href={link.href}>
-                    <a className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center gap-2">
+                    <span className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
                       {link.icon && <link.icon className="h-5 w-5" />}
                       {link.name}
-                    </a>
+                    </span>
                   </Link>
                 ))}
                 <div className="pt-6 border-t border-border space-y-4">
