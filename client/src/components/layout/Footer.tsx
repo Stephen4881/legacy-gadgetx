@@ -36,7 +36,7 @@ export function Footer() {
             <h4 className="font-heading font-semibold mb-4 text-sm uppercase tracking-wider">Services</h4>
             <ul className="space-y-3">
               <li><Link href="/shop"><span className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">Phones & Laptops</span></Link></li>
-              <li><Link href="/repairs"><span className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">iRepairs</span></span/></Link></li>
+              <li><Link href="/repairs"><span className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">iRepairs</span></Link></li>
               <li><Link href="/swap"><span className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">Swap Program</span></Link></li>
               <li><Link href="/savings"><span className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">Savings Plan</span></Link></li>
             </ul>
