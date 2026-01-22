@@ -54,10 +54,10 @@ export function Navbar() {
         <Link href="/">
           <div className="flex items-center gap-2 hover:opacity-90 transition-opacity shrink-0 cursor-pointer">
             <img src={logoImg} alt="Legacy Gadget'x" className="h-10 w-10 md:h-12 md:w-12 rounded-full border border-white/10 shadow-lg" />
-            <div className="flex flex-col -space-y-1">
-              <span className="font-heading font-bold text-lg md:text-xl tracking-tighter text-red-600">LEGACY</span>
-              <span className="font-heading font-bold text-sm md:text-base tracking-tighter text-white">GADGET’X</span>
-            </div>
+                    <div className="flex flex-col -space-y-1">
+                      <span className="font-heading font-bold text-lg md:text-xl tracking-tighter text-red-600">LEGACY</span>
+                      <span className="font-heading font-bold text-sm md:text-base tracking-tighter text-white">GADGET’X</span>
+                    </div>
           </div>
         </Link>
 

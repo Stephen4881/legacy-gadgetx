@@ -75,20 +75,20 @@ export function Hero() {
             className="grid grid-cols-2 sm:grid-cols-5 gap-4 max-w-3xl"
           >
             <Link href="/shop">
-              <a className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+              <div className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group cursor-pointer">
                 <div className="p-3 rounded-xl bg-blue-500/10 text-blue-500 mb-3 group-hover:scale-110 transition-transform">
                   <ShoppingBag className="h-6 w-6" />
                 </div>
                 <span className="text-sm font-medium">Shop</span>
-              </a>
+              </div>
             </Link>
             <Link href="/swap">
-              <a className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+              <div className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group cursor-pointer">
                 <div className="p-3 rounded-xl bg-green-500/10 text-green-500 mb-3 group-hover:scale-110 transition-transform">
                   <Repeat className="h-6 w-6" />
                 </div>
                 <span className="text-sm font-medium">Swap</span>
-              </a>
+              </div>
             </Link>
             <a href="https://wa.me/2347032220586?text=Hello%20Legacy%20Gadget%E2%80%99x%2C%20I%20am%20interested%20in%20purchasing%20a%20device%20from%20you.%20Kindly%20share%20your%20catalog." target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
               <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-500 mb-3 group-hover:scale-110 transition-transform">
