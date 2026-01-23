@@ -1,33 +1,4 @@
-name: CI & Deployment Check
-on:
-  push:
-    branches:
-      - main  # or your deployment branch
-jobs:
-  build-and-check:
-    runs-on: ubuntu-latest
-    steps:
-      # 1️⃣ Checkout code
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      # 2️⃣ Install Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-      # 3️⃣ Install dependencies
-      - name: Install dependencies
-        run: npm install
-      # 4️⃣ Optimize images (optional but recommended)
-      - name: Optimize images
-        run: |
-          npm install -g @squoosh/cli
-          npx squoosh-cli --webp -d dist/public/assets dist/public/assets/*.{png,jpeg,jpg}
-      # 5️⃣ Build the project
-      - name: Build project
-        run: npm run build
-      # 6️⃣ Notify Vercel / Netlify check
-      - name: Notify deployment check
-        uses: vercel/repository-dispatch-action@v1
-        with:
-          name: 'Automoma AI Check'
+- name: 'notify vercel'
+  uses: 'vercel/repository-dispatch/actions/status@v1'
+  with:
+    name: Vercel - legacy-gadgetx-o672: lint
